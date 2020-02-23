@@ -1,5 +1,10 @@
 FROM nginx
 
+# ENV MYSQL_IP = "172.17.0.1"
+
+# CMD [ "sed -ri \"s#MYSQL_IP#\$mysql_ip#g\" /src/axios/config.js" ]
+
+
 # 将打包好的项目文件拷贝到容器对应位置
 COPY  build /usr/share/nginx/html
 
