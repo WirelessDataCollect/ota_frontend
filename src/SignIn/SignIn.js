@@ -88,11 +88,11 @@ export default class SignIn extends Component {
             </div>
           </div>
           <Row type="flex" justify="center" style={{ paddingTop: '2%', background: "rgba(255,255,255,0.9)", height: "10vh" }}>
-            NESC ©2020  浙江大学    <a id="beian" href="http://www.beian.miit.gov.cn" h="ID=SERP,5041.1">浙ICP备18047772号-1</a>
+            浙江大学NeSC课题组-瑞立集团
+            {/* <a id="beian" href="http://www.beian.miit.gov.cn" h="ID=SERP,5041.1">浙ICP备18047772号-1</a> */}
         </Row>
         </div>
       </div>
-
     );
   }
 }
