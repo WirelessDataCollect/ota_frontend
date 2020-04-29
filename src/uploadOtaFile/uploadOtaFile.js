@@ -195,6 +195,7 @@ class App extends React.Component {
         });
       }
     }
+    
   };
 
   deleteNodeModel = () => {
