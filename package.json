@@ -16,7 +16,7 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4",
     "save": "^2.3.2",
-    "victory-native": "^0.17.4"
+    "victory-native": "^36.6.8"
   },
   "scripts": {
     "start": "react-app-rewired start",
